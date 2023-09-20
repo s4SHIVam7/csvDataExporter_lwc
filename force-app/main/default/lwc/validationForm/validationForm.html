@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Validation Form" icon-name = "custom:custom34">
+        <div class = "slds-m-around_small" >
+            <lightning-input class = "fstNameCmp" label = "Enter Name" type = "string"> </lightning-input>
+            <lightning-input class = "lastNameCmp" label = "Enter Last Name" type = "string"> </lightning-input>
+            <lightning-input class = "birthDateCmp" label = "Enter Birthdate" type = "date"> </lightning-input>
+            <br/>
+            <br/>
+            <lightning-button class="slds-align_absolute-center" label="Search" variant="brand" onclick={validator}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
