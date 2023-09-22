@@ -1,0 +1,7 @@
+<template>
+    <div class ="slds-var-p-around_small">
+        <lightning-button variant="brand" label="Export Data" title="Export Data Into CSV" icon-name="utility:download" onclick={clickHandler} disabled={checkRecord}></lightning-button>
+    </div>
+
+    <lightning-datatable key-field="id" data={accountData} columns={columns}></lightning-datatable>
+</template>
